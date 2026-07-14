@@ -1,0 +1,9 @@
+// SLIDE – Bewegungs-Engine (minimal)
+
+export function SLIDE(value) {
+    return {
+        shift: value * 1.1,     // Bewegung
+        pos: value * 0.9,       // Position
+        rot: value * 0.03       // Rotation (360° / 12)
+    };
+}
